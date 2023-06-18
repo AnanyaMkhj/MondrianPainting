@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+   
+    .cover{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 419px;
+      grid-template-rows: 414px 325px;
+      gap: 9px;
+      background-color: #000;
+    }
+
+    .div1{
+      background-color: #E72F24;
+      height: 414px;
+      width: 320px;
+    }
+
+    .div2{
+      background-color: #F0F1EC;
+      height: 414px;
+      width: 419px;
+    }
+
+    .div3{
+      background-color: #000;
+      display: grid;
+      grid-template-rows: 295px 20px;
+      gap: 9px;
+    }
+
+    .div31{
+      background-color: #F0F1EC;
+      height: 100%;
+    }
+
+    .div32{
+      background-color: #F0F1EC;
+      height: 100%;
+    }
+
+    .div4{
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 360px 50px;
+      gap: 9px;
+    }
+
+    .div41{
+      background-color: #000;
+      display: grid;
+      grid-template-rows: 295px 20px;
+      gap: 9px;
+    }
+   
+    .div42{
+      background-color: #000;
+      display: grid;
+      grid-template-rows: 130px 184px;
+      gap: 10px;
+    }
+
+    .div411{
+      background-color: #F0F1EC;
+    }
+
+    .div412{
+      display: grid;
+      grid-template-columns: 198px 153px;
+      gap: 9px;
+    }
+
+    .div4121{
+      background-color: #F9D01E;
+    }
+
+    .div4122{
+      background-color: #232629;
+    }
+
+    .div421{
+      background-color: #004592;
+    }
+
+    .div422{
+      background-color: #F0F1EC;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cover">
+   <div class="container"> 
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3">
+      <div class="div31"></div>
+      <div class="div32"></div>
+    </div>
+
+    <div class="div4">
+      <div class="div41">
+        <div class="div411"></div>
+        <div class="div412">
+          <div class="div4121"></div>
+          <div class="div4122"></div>
+        </div>
+      </div>
+      <div class="div42">
+        <div class="div421"></div>
+        <div class="div422"></div>
+      </div>
+    </div>
+   </div>
+  </div>
+</body>
+
+</html>
